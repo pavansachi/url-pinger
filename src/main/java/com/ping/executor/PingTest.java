@@ -27,10 +27,6 @@ public class PingTest {
 		
 		service.sendAndHandleResponse(requests);
 
-		System.out.println("finding the urls with cookie set");
-		
-		System.out.println(service.getUrlList());
-		
 	}
 
 }

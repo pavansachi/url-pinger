@@ -22,6 +22,14 @@ import com.ping.service.impl.PrintStrategy;
 public class PingService {
 
 	private DataDAO<Resource> dao = new ResourceDataDAOImpl();
+	
+	public DataDAO<Resource> getDao() {
+		return dao;
+	}
+
+	public void setDao(DataDAO<Resource> dao) {
+		this.dao = dao;
+	}
 
 	public void sendAndHandleResponse(List<Request> requests) {
 
