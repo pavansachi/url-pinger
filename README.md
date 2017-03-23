@@ -14,7 +14,7 @@ mvn clean install
 ## Solutions for Q2.2 , Q2.3
 
 ### Run the main class
-mvn exec:java -Dexec.mainClass="com.ping.executor.PingTest"
+mvn exec:java -Dexec.mainClass="com.ping.executor.PingTest" -Dexec.args="http://google.com http://yahoo.com"
 
 ## Solutions for Q2.4
 
