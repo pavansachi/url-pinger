@@ -2,11 +2,11 @@ com/ping/executor/PingTest.class
 com/ping/net/impl/RestTemplateImpl.class
 com/ping/db/DataDAO.class
 com/ping/model/Request.class
-com/ping/service/impl/DataStrategy.class
 com/ping/service/PingService.class
 com/ping/service/ResponseStrategy.class
+com/ping/service/impl/PrintStrategy.class
+com/ping/service/impl/DataStrategy.class
 com/ping/net/IHttpTemplate.class
 com/ping/model/Resource.class
 com/ping/model/Response.class
 com/ping/db/impl/ResourceDataDAOImpl.class
-com/ping/service/impl/PrintStrategy.class
