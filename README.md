@@ -3,9 +3,9 @@ url-pinger
 
 ## Pre-requisites
 
-*Java 8
-*Maven
-*Junit
+* Java 8
+* Maven
+* Junit
 
 ## Q2.2 , Q2.3
 
