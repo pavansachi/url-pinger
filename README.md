@@ -7,10 +7,15 @@ url-pinger
 * Maven
 * Junit
 
-## Q2.2 , Q2.3
+## How to build the project
 
+mvn clean install
+
+## Solutions for Q2.2 , Q2.3
+
+### Run the main class
 mvn exec:java -Dexec.mainClass="com.ping.executor.PingTest"
 
-## Q2.4
+## Solutions for Q2.4
 
-mvn test
+mvn test -Dtest=PingTest
